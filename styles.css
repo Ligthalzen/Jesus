@@ -1,0 +1,173 @@
+/* Estilo general */
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: blueviolet;
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+.form h2{
+    text-align: center;
+}
+
+p, ul {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Cabeçalho fixado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 15px 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header ul li {
+    margin: 0;
+}
+
+header ul a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul a:hover {
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+header ul button {
+    background-color: blueviolet;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+header ul button:hover {
+    background-color: darkviolet;
+    transition: all 0.3s ease-in-out;
+}
+
+.sobre {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+body {
+    margin-top: 80px;
+}
+
+/* Secciones */
+section {
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 800px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #bbb;
+}
+
+form button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form button:hover {
+    background-color: darkviolet;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: aliceblue;
+    border-radius: 15px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header ul li a {
+        font-size: 16px;
+    }
+
+    header ul button {
+        font-size: 16px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+}

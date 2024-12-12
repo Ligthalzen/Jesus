@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Pessoal</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- final fonts -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Aluno Jesus Adan Medrano Jimenez
+         RU: 4930652 -->
     <!-- Cabeçalho com menu -->
     <header>
         <nav>
             <ul>
-                <li><a href="#about">Sobre Mim</a></li>
+                <button><a class="sobre" href="#about">Sobre Mim</a></button>
                 <li><a href="#education">Formação</a></li>
                 <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contact">Contato</a></li>
@@ -22,22 +29,36 @@
     <!-- Seção Sobre Mim -->
     <section id="about">
         <h2>Sobre Mim</h2>
-        <p>Olá, sou [Seu Nome], um desenvolvedor apaixonado por tecnologia. Gosto de aprender novas habilidades, explorar linguagens de programação e jogar videogames no meu tempo livre.</p>
+        <p>Aos 22 anos, minha vida é uma constante viagem de descoberta e paixão. Nascido na Venezuela, encontrei um novo lar em Curitiba, PR, onde cada dia se sente como uma oportunidade fresca. Desde pequeno, os jogos foram meu refúgio, mas foi a programação que realmente acendeu minha curiosidade e desejo de criar. Nos meus momentos livres, mergulho em linhas de código, sonhando com projetos que transcendam fronteiras. Além disso, o esporte me enche de energia e disciplina, ensinando-me que esforço e perseverança são fundamentais em cada meta. Meu objetivo é claro: quero ser um grande programador e levar minhas habilidades para o exterior, onde posso deixar minha marca no mundo tecnológico. </p>
     </section>
 
     <!-- Seção Formação -->
     <section id="education">
         <h2>Formação</h2>
         <ul>
-            <li>Técnico em Informática - [Nome da Escola]</li>
-            <li>Bilingue: Espanhol (nativo), Português (fluente)</li>
-            <li>Curso de Fundamentos de Desenvolvimento Web</li>
+            <li><strong>Educação Inicial:</strong> U.E.C.A Cristo Rey - Completo</li>
+            <li><strong>Ensino Médio:</strong> U.E.C.A Cristo Rey - Completo</li>
+            <li><strong>Ensino Superior:</strong> Cursando na UNITER - Curso de Análise e Desenvolvimento de Sistemas</li>
+        </ul>
+        
+        <h3>Cursos Realizados</h3>
+        <ul>
+            <li>Informática Básica - SENAI</li>
+            <li>Informática Avançada - SENAI</li>
+            <li>Montador e Reparador de Computadores - SENAI</li>
+        </ul>
+        
+        <h3>Idiomas</h3>
+        <ul>
+            <li><strong>Português:</strong> Fluente</li>
+            <li><strong>Espanhol:</strong> Nativo</li>
         </ul>
     </section>
 
     <!-- Seção Portfólio -->
     <section id="portfolio">
         <h2>Portfólio</h2>
+        <p>Atualmente o meu primeiro projeto realizado e o portfolio mas irei aprimorando minhas habilidades para conseguir acresentar atualizações nele.</p>
         <ul>
             <li><a href="https://github.com/seu-perfil" target="_blank">Meu GitHub</a></li>
             <li><a href="https://codepen.io/seu-perfil" target="_blank">Projetos no CodePen</a></li>
@@ -45,7 +66,7 @@
     </section>
 
     <!-- Seção Contato -->
-    <section id="contact">
+    <section class="form" id="contact">
         <h2>Contato</h2>
         <form action="#" method="post">
             <label for="name">Nome</label>
@@ -63,7 +84,7 @@
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 - Portfólio de [Seu Nome]</p>
+        <p>&copy; 2024 - Portfólio de Jesus Adan Medrano Jimenez</p>
     </footer>
 </body>
 </html>
