@@ -10,10 +10,10 @@ body {
 h2 {
     color: blueviolet;
     margin-bottom: 10px;
-    text-align:left;
+    text-align: left;
 }
 
-.form h2{
+.form h2 {
     text-align: center;
 }
 
@@ -79,7 +79,6 @@ header ul button:hover {
     padding: 10px 20px;
     text-decoration: none;
 }
-
 
 body {
     margin-top: 80px;
@@ -169,5 +168,11 @@ footer {
 
     form {
         width: 90%;
+    }
+
+    footer {
+        padding: 10px; 
+        font-size: 12px;
+        line-height: 1.4; 
     }
 }
